@@ -34,9 +34,24 @@ img {
   margin-bottom: 120px;
   border-radius: 120px;
   position: fixed;
+  transition: all 1.2s;
+  cursor: pointer;
+}
+
+img:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 
 body {
     background: url(https://static.vecteezy.com/system/resources/previews/012/996/908/non_2x/business-presentation-blue-yellow-red-abstract-modern-background-with-geometric-shapes-vector.jpg);
 } 
+
+iframe {
+    position: relative;
+    left: 34%;
+    top: 70px;
+}
